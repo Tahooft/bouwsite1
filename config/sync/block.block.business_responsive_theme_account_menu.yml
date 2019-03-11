@@ -1,0 +1,26 @@
+uuid: 0e8578b7-91a5-4afd-941f-93a3e371a3e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - business_responsive_theme
+_core:
+  default_config_hash: WBBpOfroLTC3vMi_qGBQ-2UvGKpJDfivf42BOI2Ve94
+id: business_responsive_theme_account_menu
+theme: business_responsive_theme
+region: auto_hidden_block
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }
